@@ -36,3 +36,374 @@
     transform: rotate(360deg);
   }
 }
+
+#act1{
+  background-color: #fff;
+}
+
+
+/*Netflix*/
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#registerNetflix{
+  height: auto;
+
+  padding-top: 0%;
+  text-align: center;
+}
+
+
+
+/*Subscription*/
+#background-Netflix{
+  color: #ffff;
+  width: 60%;
+  display: inline-block;
+}
+
+#span_email{
+  display: block;
+  text-align: left;
+  padding-left: 5%;
+}
+#registerNetflix label{
+  width: 80%;
+  color: gray;
+  text-align: center;
+}
+#registerNetflix input{
+  border: none;
+  width: 90%;
+  background-color: transparent;
+  height:15px;
+  padding-left: 2%;
+}
+#divEmail{
+  background-color: #fff;
+  padding-bottom: 1%; 
+}
+.btnF{
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  width: 8%;
+  margin-right: 8%;
+  margin-left: 10%;
+}
+
+#divEmail:focus-within label {
+  border: solid 3px;
+  outline: transparent;
+  border-top: transparent;
+  border-bottom-color: orange;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+#emailN:focus-within, #divCorreo input, #divPassword input, #Pago-background input{
+  outline: rgba(0, 0, 0, 0); /* Quita el borde al hacer clic en el input */
+}
+#result_email{
+  display: block;
+  width: 100%;
+  color: orange;
+  text-align: left;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/*Password Form*/
+#passForm, #background-Plan{
+  width: 45%;
+  display: inline-block;
+  background-color: white;
+  text-align: left;
+  padding: 6%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+#passForm p{
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 1%;
+  margin-top: 0;
+}
+#passForm h2{
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+
+#divCheck label{
+  color:black;
+  font-size: 14px;
+}
+
+#divCheck input{
+  display: inline-block;
+  width: auto;
+  vertical-align: text-top;
+}
+
+#passForm form{
+  padding-top: 2%;
+}
+
+#divCorreo, #divPassword{
+  height: 40px;
+  border: solid 0.5px;
+  margin-bottom: 5%;
+}
+
+.s{
+  display: block;
+  height: 10%;
+  font-size: 10px;
+  padding-left: 2%;
+  color: #555;
+  padding-bottom: 1%;
+}
+#spanCorreo, #spanPassword{
+  font-size: 10px;
+    display: block;
+    padding-left: 0%;
+    margin-top: 3%;
+    color: red;
+}
+
+
+/*PLAN*/
+#background-Plan{
+  width: 55%;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  padding-bottom: 2%;
+  margin: 1%;
+  padding: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#num{
+  margin: 0;
+  font-size: 12px;
+}
+.ch{
+  color: red;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  padding-right: 2%;
+}
+#background-Plan h3{
+  color: #35373a;
+  margin-bottom: 0%;
+  font-size: 20px;
+  margin-top: 0;
+}
+#beneficios{
+  margin-bottom: 2%;
+}
+#beneficios span{
+    display: block;
+    font-size: 14px;
+    color: #555;
+    height: 20px;
+}
+#divPlanes div{
+    padding:8%;
+    vertical-align: middle;
+    text-align: center;
+    width:80%;
+}
+#divPlanes p{
+  background-color: rgb(226, 79, 87);
+  margin: 2%;
+  width: 80%;
+  height: 50px;
+  font-size: 15px;
+  color: white;
+  padding-top: 20%;
+}
+#divPlanes > td:nth-child(2) > div > p {
+  padding-top: 20%;
+  height: 60px;
+  font-size: 15px;
+}
+#vacio{
+  width: 50%;
+}
+#divPlanes td{
+width: 70px;
+}
+table{
+  width: 100%;
+  font-size: 12px;
+}
+table td{
+    text-align: center;
+    border-bottom: solid 1px gray;
+}
+table p{
+  display: inline-block;
+}
+tr > td:nth-child(1){
+  text-align: left;
+}
+#divPlanes td{
+  border-bottom: none;
+}
+
+
+.selected-red {
+  color: rgb(255, 0, 0); /* Cambia el color del texto a blanco cuando está seleccionado */
+}
+#divPlanes .selected-red p{
+  background-color: rgb(255, 0, 0); /* Cambia el color del texto a blanco cuando está seleccionado */
+}
+#error{
+  margin: 1%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+
+/*Pago*/
+#Pago-background{
+  background-color: #fff;
+  width: 50%;
+  margin: auto;
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+}
+
+#Pago-background #divNombre, #Pago-background #divApellido, #Pago-background #divTarjeta, #Pago-background #divVencimiento,  #Pago-background #divSeguridad{
+  margin-bottom: 5%;
+}
+#Pago-background #divNombre, #Pago-background #divApellido, #Pago-background #divTarjeta, #Pago-background #divVencimiento,  #Pago-background #divSeguridad {
+  border: solid 1px rgb(212, 212, 212);
+  height: 35px;
+}
+#Pago-background .pagoF{
+  display: inline-block;
+  width: 48%;
+}
+#Pago-background #num{
+text-align: left;
+}
+#Pago-background h2{
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+}
+#tarjetas img, #tarjetaType{
+    width: 50px;
+    display: inline-block;
+}
+#tarjetas {
+  text-align: left;
+}
+#ayuda{
+display: inline-block;
+border: solid 1px gray;
+padding: 0;
+margin: 0;
+border-radius: 50%;
+height: 70%;
+width: 10%;
+vertical-align: text-top;
+}
+#seguridad{
+  display: inline-block;
+  width: 80% !important;
+}
+#divSeguridad label{
+  display: block;
+  width: 100%;
+}
+#Pago-background input{
+  vertical-align: bottom;
+  height: 12px;
+}
+#Pago-background #Seguridad{
+  vertical-align: middle;
+    height: 14px;
+    padding-top: 0%;
+    width: 80%;
+}
+
+#sSeguridad{
+  padding-bottom: 2% !important;
+}
+
+.helpImg img{
+  width: 65%;
+  text-align: center;
+}
+.helpImg{
+  visibility: hidden;
+  padding: 3%;
+  text-align: center;
+  font-size: 13px;
+}
+#Pago-background .s{
+  text-align: left;
+  padding-left: 3%;
+}
+
+#Pago-background #regresar a{
+  color: #0e71e9;
+    font-weight: 500;
+}
+#Pago-background #regresar *{
+  display: inline-block;
+  width: 55%;
+  text-align:right;
+  vertical-align: middle;
+}
+#Pago-background #regresar div p{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#precio{
+  color: #35373a;
+  font-weight: 600;
+}
+#plan{
+  font-size: 14px;
+  text-align: center !important;
+  color: gray;
+}
+#regresar{
+  background-color: #a9a9a945;
+}
+#form{
+  text-align: left;
+}
+#cambiarDiv{
+  width: 40% !important;
+}
+.divSpan{
+  font-size: 10px;
+  color: red;
+}
+
+
+
+/*RESULT*/
+.result img{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-left: 10%;
+}
+.result h3, .result h4, .result h5{
+  color: #282c34;
+}
