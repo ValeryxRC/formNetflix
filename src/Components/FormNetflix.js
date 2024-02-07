@@ -23,6 +23,7 @@ const Proceso = () => {
   const [apellido, setApellido] = useState('');
   const [tarjeta, setTarjeta] = useState('');
 
+
   /*Constante que al darle siguiente paso va verificando paso por paso las restriciones y guarda las variables introducidas por el usuario */
   const siguientePaso = () => {
         if (pasoActual == 1) {
@@ -92,6 +93,11 @@ const Proceso = () => {
                         vencimientoInput.reportValidity();
                       }else setPasoActual(pasoActual+1);
                       setPasoActual(pasoActual+1);
+                         /*Esconde el boton de retroceder al terminar el formulario */
+          if(pasoActual >= 4){
+            setPaso5(false);
+            setPaso1(false);
+          }        
                   } else {
                     vencimientoInput.setCustomValidity('Año invalido');
                     vencimientoInput.reportValidity();
@@ -105,13 +111,8 @@ const Proceso = () => {
           }else {
             form.reportValidity();
           }
-         
+          console.log(pasoActual);
       }
-      /*Esconde el boton de retroceder al terminar el formulario */
-      if(pasoActual+1 == 5){
-        setPaso5(false);
-        setPaso1(false);
-      } 
   };
 
   const pasoAnterior = () => {
